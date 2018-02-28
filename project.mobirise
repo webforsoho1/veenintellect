@@ -1,0 +1,621 @@
+{
+  "settings": {
+    "name": "Veen Intellect Enterprise",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "colorm",
+      "title": "ColorM",
+      "styling": {
+        "primaryColor": "#f39c12",
+        "buttonsColor": "#000000",
+        "secondaryColor": "#9b59b6",
+        "successColor": "#2ecc71",
+        "infoColor": "#3498db",
+        "warningColor": "#f1c40f",
+        "dangerColor": "#e74c3c",
+        "titleFont": "Arvo",
+        "subtitleFont": "Montserrat",
+        "textFont": "Open Sans",
+        "isRoundedButtons": true,
+        "isAnimatedOnScroll": true,
+        "isScrollToTopButton": false
+      },
+      "additionalSetColors": []
+    },
+    "path": "@PROJECT_PATH@",
+    "versionFirst": "4.6.2",
+    "uniqCompNum": 16,
+    "versionPublish": "4.6.5",
+    "screenshot": "screenshot.png",
+    "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
+    "robotsSwitcher": "on",
+    "favicon": "@PROJECT_PATH@/assets/images/worker-64x64.png",
+    "noImageResize": "",
+    "google-analytics": "",
+    "siteUrl": "undefined"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Veen Intellect Enterprise",
+        "meta_descr": "Veen Intellect Enterprise:-Built to Inspire",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff",
+              "font-size": "20px"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.875rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.948rem"
+            },
+            ".link:hover, .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".dropdown-item:hover::before, .dropdown-item:focus::before": {
+              "background": "@primaryColor"
+            },
+            ".dropdown-item:hover, .dropdown-item:focus": {
+              "color": "#ffffff"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#000000"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#000000!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#000000"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#f39c12!important"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "showBrand": false,
+            "hideButtons": false,
+            "sticky": false,
+            "collapsed": true,
+            "transparent": false,
+            "bgColor": "#000000",
+            "fontSize": 0.875,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#features1-2\">Our Services</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#buttons1-d\">Contact us</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"tel:+60177776460\">Call Us</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/veev-int-317x73.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Veen Intellect Enterprise&nbsp;<br></a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-0"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle, .btn": {
+              "color": "#fff"
+            },
+            ".mbr-section-title": {
+              "font-weight": "700",
+              "font-size": "72px",
+              "color": "#dddddd",
+              "font-family": "'Merriweather', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Merriweather:400,300,700"
+            },
+            ".mbr-section-subtitle": {
+              "font-size": "25px",
+              "color": "#dddddd"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "buttonAlign": "right",
+            "showArrow": true,
+            "iconsColor": "#ffffff",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/construction-site-build-construction-work-159359-640x426.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#8e44ad",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
+            "overlay": true,
+            "overlayColor": "#2c3e50",
+            "overlayOpacity": "0.6"
+          },
+          "arrowDown": "@PROJECT_PATH@/assets/images/arrowdown.png",
+          "title": "Veen Intellect Enterprise\n",
+          "text": "A reliable contractor",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-pinterest mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-facebook mbr-iconfont mbr-iconfont-btn\"></span></a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header2",
+          "_anchor": "header2-1"
+        },
+        {
+          "_styles": {
+            ".lead": {
+              "color": "#9fa3a7"
+            },
+            ".mbr-section-subtitle": {
+              "text-transform": "uppercase"
+            }
+          },
+          "_params": {
+            "showImages": true,
+            "showNumber": false,
+            "showTitles": true,
+            "showSubtitles": true,
+            "ShowTexts": true,
+            "showButtons": false,
+            "imageSize": 50,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/features/05.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#ecf0f1",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#ecf0f1",
+            "overlayOpacity": 0.9
+          },
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/contractor-600x398.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "title1": "<b>Veen Intellect Enterprise</b>",
+          "subtitle1": "<b>A reliable contractor</b>",
+          "caption1": "<b>We are committed to give the best service to our customers.<br>CIDB G2 registered contractor.<br></b><br>",
+          "number1": "1",
+          "title2": "Responsive",
+          "subtitle2": "One of Bootstrap 4's big points",
+          "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
+          "title3": "Web Fonts",
+          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "title4": "Unlimited Sites",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button1": "<a data-app-btn=\"true\" class=\"btn btn-primary-outline\" href=\"https://mobirise.com\"><span class=\"cm-icon cm-icon-arrowright mbr-iconfont mbr-iconfont-btn\"></span></a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features8",
+          "_anchor": "features8-b"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title": {
+              "font-weight": "700",
+              "font-size": "46px"
+            },
+            ".mbr-section-subtitle": {
+              "text-transform": "uppercase",
+              "letter-spacing": "2px",
+              "color": "#ffffff"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showImages": true,
+            "showTitles": true,
+            "ShowTexts": false,
+            "showButtons": false,
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "columns": "6",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/features/03.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#e67e22",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#2c3e50",
+            "overlayOpacity": 0.9
+          },
+          "media1": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/si-building-construction-supervision-of-construction-tcm1010-4042-w640-h396-n-1-600x371.jpg",
+              "class": "features-img",
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "phone",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "media2": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/road-587x440.jpg",
+              "class": "features-img",
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "edit",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "media3": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/calvert-600x450.jpg",
+              "class": "features-img",
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "briefcase",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "media4": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/oil-palm-400x300.jpg",
+              "class": "features-img",
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "linegraph",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "media5": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/drain-600x396.jpg",
+              "class": "features-img",
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "briefcase",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "media6": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/sump-600x450.jpg",
+              "class": "features-img",
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "linegraph",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "title": "We Provide Reliable Services for",
+          "title1": "Bootstrap 4",
+          "subtitle1": "Building",
+          "caption1": "Bootstrap 4 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
+          "buttons1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">learn more</a>",
+          "title2": "Responsive",
+          "subtitle2": "Road",
+          "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
+          "buttons2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">learn more</a>",
+          "title3": "Web Fonts",
+          "subtitle3": "Culverts fixing of any size",
+          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "buttons3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">learn more</a>",
+          "title4": "Unlimited Sites",
+          "subtitle4": "replanting and clearing oil palm estates and other land and earth works",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "buttons4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">learn more</a>",
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "drainage works",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "buttons5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">learn more</a>",
+          "title6": "Host Anywhere",
+          "subtitle6": "sump works",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "buttons6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">learn more</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features1",
+          "_anchor": "features1-2"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            "H3": {
+              "font-size": "48px"
+            },
+            "P": {
+              "font-size": "30px"
+            }
+          },
+          "_params": {
+            "showMeta": false,
+            "paddingTop": "2",
+            "paddingBottom": "2",
+            "bgColor": "#dddddd"
+          },
+          "title": "Your Satisfaction is our Priority",
+          "meta": "<b>C.I.D.B</b>&nbsp;&amp; Kementerian Kewangan Malaysia <br>License<b> Gred G2</b> PKK",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content3",
+          "_anchor": "content3-3"
+        },
+        {
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": "2",
+            "bgColor": "#ffffff"
+          },
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"tel:+60177776460\" data-toolbar=\"-mbrBtnMove\">&nbsp; &nbsp; Call Us &nbsp; &nbsp;&nbsp;</a> <a data-app-btn=\"true\" class=\"btn btn-success-outline btn-success\" href=\"https://api.whatsapp.com/send?phone=60177776460 \" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Whatsapps</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "buttons1",
+          "_anchor": "buttons1-d"
+        },
+        {
+          "_styles": {
+            ".mbr-section-subtitle": {
+              "text-transform": "uppercase"
+            },
+            ".form-control-label": {},
+            ".mbr-section-text": {
+              "text-align": "left",
+              "font-size": "19px"
+            },
+            ".mbr-section-text B": {
+              "font-size": "19px"
+            }
+          },
+          "_params": {
+            "showSubtitle": false,
+            "showTitle": true,
+            "showText": true,
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/04.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#1abc9c",
+            "overlay": false,
+            "overlayColor": "#ecf0f1",
+            "overlayOpacity": 0.5
+          },
+          "iconName": "<img src=\"@PROJECT_PATH@/assets/images/icon-name.png\">",
+          "iconEmail": "<img src=\"@PROJECT_PATH@/assets/images/icon-email.png\">",
+          "iconPhone": "<img src=\"@PROJECT_PATH@/assets/images/icon-phone.png\">",
+          "title": "Contact Us",
+          "subtitle": "Shape your future web project with sharp design and refine coded functions.",
+          "text": "<b>VEEN INTELLECT ENTERPRISE<br>(JM0404116-X)<br></b>No.28, Jln.Ehanbaram,\n<br>Kg.Mic, Sri Lalang,\n<br>86000 Kluang,\n<br>Johor, Malaysia&nbsp;<br><b>PHONE\n</b><br><b>&nbsp;<a href=\"tel:+60197213870\" class=\"text-black\">019-7213870</a>\n</b><br><b>&nbsp;<a href=\"tel:+60177776460\" class=\"text-black\">017-7776460</a>\n</b><br><b>EMAIL\n</b><br><a href=\"mailto:v_praveenkutty@yahoo.com\" class=\"text-black\">veen@mykontraktor.com</a><br>Facebook<br><b><a href=\"https://facebook.com/Veen-Intellect-188088625126465/\" target=\"_blank\" class=\"text-black\">Our Facebook Business Page</a></b>",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Send us an email</a>",
+          "form": {
+            "action": "v_praveenkutty@yahoo.com",
+            "alerts": {
+              "success": "Thanks for contacting us. We will reply soon."
+            },
+            "fields": {
+              "name": {
+                "visible": true,
+                "title": "Name",
+                "customTitle": "Name*"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "visible": true,
+                "title": "Phone",
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form2",
+          "_anchor": "form2-a"
+        },
+        {
+          "_styles": {
+            ".mbr-section-subtitle, .mbr-section-text": {
+              "color": "#fff"
+            },
+            ".mbr-section-subtitle": {
+              "margin-bottom": "20px",
+              "margin-top": "0"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "showTitles": false,
+            "showButtons": false,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#000000",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/designevo-300x60.jpg",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "title1": "product",
+          "text11": "",
+          "text12": "",
+          "text13": "",
+          "text14": "",
+          "text15": "",
+          "title2": "company",
+          "text21": "",
+          "text22": "",
+          "text23": "",
+          "text24": "",
+          "text25": "",
+          "title3": "Learn more",
+          "text31": "",
+          "text32": "",
+          "text33": "",
+          "text34": "",
+          "text35": "",
+          "followtext": "follow us",
+          "text": "Copyright (c) Veen Intellect Enterprise.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-pinterest mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-facebook mbr-iconfont mbr-iconfont-btn\"></span></a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-f"
+        }
+      ]
+    }
+  }
+}
